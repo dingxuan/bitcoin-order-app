@@ -20,6 +20,7 @@ before_script:
 script:
   - ng build --prod --base-href https://github.com/dingxuan/bitcoin-order-app/
 
+
 deploy:
   provider: pages
   skip_cleanup: true
